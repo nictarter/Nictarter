@@ -14,10 +14,10 @@ jobs:
 
       - uses: charmbracelet/readme-scribe@master
         env:
-          WAKATIME_URL: ${https://hackatime.hackclub.com/api/hackatime/v1}
-          WAKATIME_API_KEY: ${5baa0e84-1f8e-42eb-9120-f56391772c67}
+          WAKATIME_URL: ${{https://hackatime.hackclub.com/api/hackatime/v1}}
+          WAKATIME_API_KEY: ${{5baa0e84-1f8e-42eb-9120-f56391772c67}}
         with:
-          template: "README.md.tpl"
+          template: "github-profile.tpl"
           writeTo: "README.md"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
