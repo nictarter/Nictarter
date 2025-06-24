@@ -17,7 +17,7 @@ jobs:
           WAKATIME_URL: ${https://hackatime.hackclub.com/api/hackatime/v1}
           WAKATIME_API_KEY: ${5baa0e84-1f8e-42eb-9120-f56391772c67}
         with:
-          template: "templates/README.md.tpl"
+          template: "README.md.tpl"
           writeTo: "README.md"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
