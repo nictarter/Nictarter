@@ -1,0 +1,6 @@
+template: README.tpl.md
+output: README.md
+
+data:
+  hackatime:
+    user: nictarter
